@@ -1,0 +1,91 @@
+/* define page colours */
+:root {
+    --customdarkgrey: #2E353A;
+    /* get colours with colorzilla */
+}
+
+.header{
+    background-color: var(--customdarkgrey);
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.gameshowBox{
+    background-image: url("../images/curtain.jpg");
+    min-width: 1200px;
+    height: 700px;
+    margin-bottom: 100px;
+    /* background-repeat: repeat-x; */
+    /* overflow: auto; */
+}
+
+.contestantBox{
+    background-image: url("../images/GirlExcited.png");
+    width: 600px;
+    /* min-width: 800px; */
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quizBox{
+    background-color: blanchedalmond;
+    min-width: 400px;
+    border-radius: 20px;
+    margin: 60px;
+    padding: 20px;
+    min-height: 450px;
+    height: fit-content;
+}
+
+.questionBox>h2{
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 10px;
+}
+.questionBox>h3{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+}
+.questionBox>form{
+    padding: 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: medium; */
+}
+.AnswerButton{
+    background-color: tomato;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: 200px;
+  }
+
+.solutionBox>h4{
+      padding: 10px;
+  }
+.solutionBox>h3{
+    background-color: white;
+    color: yellowgreen;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: rgba(255,255,255,.75);
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+}
+.footer>h1{
+    margin: 10px;
+    padding: 10px;
+}

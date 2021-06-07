@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/quiz.css">
+
+    <title>eve joyce js quiz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="HTML,CSS,Web development,Assessment, Javascript">
+    <meta name="Description" content="Practice for unit codes ICTICT406, ICTPRG414 of Swinburne IT Cert IV">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Quiz app v1.0</h1>
+        </div>
+        <div>
+            <a href="./base.html">Javascript practice landing page</a>
+        </div>
+    </div>
+    <div class="container gameshowBox">
+        <div class="row">
+            <div class="col contestantBox">
+            </div>
+            <div class="col quizBox">
+                <div id="resultsBox">
+                    
+                </div>
+                <div id="questionBox" class="questionBox">
+                    <h2>Question <span id="questionNo"></span></h2>
+                    <h3 id="questionText">This is the question</h3>
+                    <div>
+                        <input type="radio" name="answer" value="answer1">
+                        <label id="answer1" for="answer1">Answer 1</label><br>
+                        <input type="radio" name="answer" value="answer2">
+                        <label id="answer2" for="answer2">Answer 2</label><br>
+                        <input type="radio" name="answer" value="answer3">
+                        <label id="answer3" for="answer3">Answer 3</label><br>
+                        <input type="radio" name="answer" value="answer4">
+                        <label id="answer4" for="answer4">Answer 4</label>
+                        <button class="AnswerButton" type="submit" value="submit" onclick="submit()">Submit</button>
+                    </div>
+                </div>
+                <div id="solutionBox" class="solutionBox">
+                    <h4>Your Answer: <span id="prevAnswer"></span></h4>
+                    <h3 id="previousMark">text</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer">
+        <h1>Quiz Game</h1>
+    </div>
+    
+    <script src="script/quiz.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
