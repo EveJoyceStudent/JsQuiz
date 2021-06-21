@@ -53,6 +53,7 @@ body{
     background-color: whitesmoke;
     border-radius: 15px;
     padding: 10px;
+    font-weight: lighter;
 }
 .answers{
     padding: 10px 20px;
