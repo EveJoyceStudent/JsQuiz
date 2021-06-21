@@ -23,7 +23,10 @@ body{
 }
 
 .contestantBox{
-    background-image: url("../images/GirlExcited.png");
+    /* background-image: url("../images/GirlExcited.png"); */
+    /* background-image: url("../images/GirlAngry.png"); */
+    background-image: url("../images/GirlHappy.png");
+    
     width: 600px;
     /* min-width: 800px; */
     min-height: 800px;
@@ -51,8 +54,8 @@ body{
     border-radius: 15px;
     padding: 10px;
 }
-.questionBox>form{
-    padding: 0px 20px;
+.answers{
+    padding: 10px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* font-size: medium; */
 }
@@ -61,6 +64,7 @@ body{
     border-radius: 15px;
     color: white;
     padding: 15px;
+    margin: 10px auto;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -74,6 +78,14 @@ body{
 .solutionBox>h3{
     background-color: white;
     color: yellowgreen;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.resultsBox>h3{
+    background-color: white;
+    color: black;
     text-align: center;
     border-radius: 15px;
     padding: 10px;

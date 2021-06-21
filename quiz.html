@@ -29,26 +29,29 @@
     </div>
     <div class="container gameshowBox">
         <div class="row">
-            <div class="col contestantBox">
+            <div id="contestantBox" class="col contestantBox">
             </div>
             <div class="col quizBox">
-                <div id="resultsBox">
+                <div id="resultsBox" class="resultsBox">
                     
                 </div>
+                <form id="restartBox" class="restartBox" style="display: none;">
+                    <button class="AnswerButton" type="submit" value="submit" onclick="submit()">Restart Quiz</button>
+                </form>
                 <div id="questionBox" class="questionBox">
                     <h2>Question <span id="questionNo"></span></h2>
                     <h3 id="questionText">This is the question</h3>
-                    <div>
-                        <input type="radio" name="answer" value="answer1">
+                    <div class="answers" id="answers">
+                        <!-- <input type="radio" name="answer" value="answer1">
                         <label id="answer1" for="answer1">Answer 1</label><br>
                         <input type="radio" name="answer" value="answer2">
                         <label id="answer2" for="answer2">Answer 2</label><br>
                         <input type="radio" name="answer" value="answer3">
                         <label id="answer3" for="answer3">Answer 3</label><br>
                         <input type="radio" name="answer" value="answer4">
-                        <label id="answer4" for="answer4">Answer 4</label>
-                        <button class="AnswerButton" type="submit" value="submit" onclick="submit()">Submit</button>
+                        <label id="answer4" for="answer4">Answer 4</label> -->
                     </div>
+                    <button class="AnswerButton" type="submit" value="submit" onclick="submit()">Submit</button>
                 </div>
                 <div id="solutionBox" class="solutionBox">
                     <h4>Your Answer: <span id="prevAnswer"></span></h4>
